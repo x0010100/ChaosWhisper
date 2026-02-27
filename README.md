@@ -153,12 +153,24 @@ sudo apt install xclip
 
 ## 🔑 Licensing
 
-ChaosWhisper is distributed under a **commercial license** with a key-based activation system.
+ChaosWhisper is distributed under a **commercial license** with a personalized key-based activation system.
 
-- Each license includes a **daily request limit** and an **expiry date**
-- Your system ID is tied to the license at activation
-- To check your system ID: `./chaosWhisper.bin --system-id`
-- To purchase or request a license, contact the author
+- Each license is **unique per user** — keys are non-transferable
+- Includes a **daily request limit** and an **expiry date** configured per license
+- Your System ID is tied to the license — works only on your machine
+- To check your System ID: `./chaosWhisper.bin --system-id`
+
+### 📬 How to Get a License
+
+1. Run `./chaosWhisper.bin --system-id` and copy your System ID
+2. Contact via Telegram and send your System ID
+3. Receive your personal license key
+4. Activate it:
+```bash
+./chaosWhisper.bin --license YOUR_LICENSE_KEY
+```
+
+> 💬 **Telegram:** [@0x0010100]
 
 ---
 
@@ -167,7 +179,5 @@ ChaosWhisper is distributed under a **commercial license** with a key-based acti
 **Built by [x0010100](https://github.com/x0010100)**
 
 *If you find ChaosWhisper useful, leave a ⭐*
-
-> send PM for license: @0x0010100
 
 </div>
