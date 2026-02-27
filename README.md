@@ -168,6 +168,6 @@ ChaosWhisper is distributed under a **commercial license** with a key-based acti
 
 *If you find ChaosWhisper useful, leave a ⭐*
 
-> *"send PM for license: @0x0010100
+> send PM for license: @0x0010100
 
 </div>
